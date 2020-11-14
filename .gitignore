@@ -10,3 +10,6 @@ rules
 application.yml
 .env
 node_modules
+logs
+awkward
+.vscode
