@@ -13,3 +13,5 @@ node_modules
 logs
 awkward
 .vscode
+logs/spring.log
+logs/
