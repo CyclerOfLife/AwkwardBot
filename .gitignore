@@ -9,9 +9,6 @@ rules
 2Hypixel.txt
 application.yml
 .env
-node_modules
 logs
 awkward
 .vscode
-logs/spring.log
-logs/
