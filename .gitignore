@@ -1,0 +1,11 @@
+node_modules
+dist
+src/Config.ts
+src/nohup.out
+cred.json
+db.sqlite
+Lavalink.jar
+rules
+2Hypixel.txt
+application.yml
+.env
