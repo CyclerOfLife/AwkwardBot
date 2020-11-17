@@ -3,10 +3,10 @@ import { Message, MessageEmbed } from "discord.js";
 import fetch from "node-fetch";
 import moment from "moment";
 import pageEmbed from "@awkwarddev/djspage";
-export default class DuelsCommand extends Command {
+export default class BedwarsCommand extends Command {
     constructor() {
-        super("duels", {
-            aliases: ["duels", 'd'],
+        super("bedwars", {
+            aliases: ["bw", 'bedwars'],
             category: "Hypixel",
             channel: "guild",
             args: [
@@ -25,8 +25,8 @@ export default class DuelsCommand extends Command {
             ],
             description: {
                 content: "Find out the basics statistics of a user",
-                usage: "hypixel [ player ]",
-                examples: ["hypixel ohhTaylor"]
+                usage: "bedwars [ player ]",
+                examples: ["bedwars ohhTaylor"]
             },
         });
     }
