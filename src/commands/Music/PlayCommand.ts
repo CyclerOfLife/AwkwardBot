@@ -1,6 +1,7 @@
 import { Command } from "discord-akairo";
 import { Message, MessageCollector, MessageEmbed, VoiceChannel } from "discord.js";
 import { Player, SearchResult, Track } from "erela.js";
+import ms from "ms";
 
 export default class PlayCommand extends Command {
     constructor() {
@@ -97,10 +98,14 @@ export default class PlayCommand extends Command {
                     });
                     embed.setFooter("Press cancel to cancel. Timeout 120 seconds");
                     message.channel.send(embed);
-                    const collector = message.channel.createMessageCollector(m =>
-                        m.author.id === message.author.id && new RegExp(`^([1-5]|cancel)$`, "i").test(m.content)
-                        , { time: 120000, max: 1 });
-                    collector.on("collect", (m: any) => {
+                    const collector: MessageCollector = message.channel.createMessageCollector(
+                        (m: any): boolean => (m.author.id === message.author.id) &&
+                            (((m.content < tracks.length + 1) && (m.content > 0)) || (m.content === "cancel"))
+                        , {
+                            time: ms("120s"),
+                            max: 1
+                        });
+                        collector.on("collect", (m: any) => {
                         if (/cancel/i.test(m.content)) return collector.stop("cancelled")
                         message.channel.send(
                             new MessageEmbed()
