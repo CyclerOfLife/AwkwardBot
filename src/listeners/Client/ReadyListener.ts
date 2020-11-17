@@ -43,6 +43,7 @@ export default class ReadyListener extends Listener {
 		this.client.priority = new Collection();
 		this.client.rp = new Collection();
 		this.client.snipes = new Map();
+		this.client.version = `『 ${this.client.user.username} v0.0.3 』`;
 		setTimeout(() => {
 			this.client.user.setPresence({
 				activity:

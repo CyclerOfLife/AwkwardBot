@@ -54,6 +54,7 @@ declare module 'discord-akairo' {
 		getUser;
 		snipes;
 		utils;
+		version;
 	}
 }
 

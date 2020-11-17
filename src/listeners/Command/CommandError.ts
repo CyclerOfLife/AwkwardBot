@@ -11,11 +11,11 @@ export default class ErrorListener extends Listener {
         });
     }
 
-    public async exec(error: Error, message: Message, command: Command) {
+    public async exec(error, message: Message, command: Command) {
         (this.client.channels.cache.get('738823299295084674') as TextChannel).send(new this.client.embed().setDescription(
             `There was a error in ${message.guild.name}(${message.guild.id}). - <#${message.channel.id}>\nError: ${error} - Command: ${command.id}`
         ))
-        console.error(`Error: ${error}`);
+        console.error(`Error: ${error.stack}`);
         return message.util?.send(
             new this.client.embed(message).setDescription(`There was an error while trying to execute this command. Please report this to the developer.\n\n\`${error}\``)
         );
