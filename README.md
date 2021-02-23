@@ -5,7 +5,7 @@ This open source-github repo, is meant for educational purposes **ONLY**
 And is a great example for other bot developers.
 
 # Awkward...
-Welcome to the repository of AwkwardBot!.
+Welcome to the repository of AwkwardBot!
 
 # Dependencies...
 Lavalink
