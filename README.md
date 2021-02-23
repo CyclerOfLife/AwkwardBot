@@ -16,9 +16,11 @@ NodeJS v12+
     npm i 
  
 # Credits
-Stasium#0001 - Code support
-Discord.js - Helping me get out annoying errors
 Taylor#1837 - Bot developer - Bot Owner
+Lavalink Creators
+Erela.js - MenuDocs
+Discord.js
+And all the other developers who made the awesome packages we use.
 
 # Author
 **AwkwardBot** © CyclerOfLife - Taylor#1837
