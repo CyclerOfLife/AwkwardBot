@@ -14,6 +14,8 @@ NodeJS v12+
 
     npm i -g typescript
     npm i 
+    tsc
+    node .
  
 # Credits
 Taylor#1837 - Bot developer - Bot Owner
