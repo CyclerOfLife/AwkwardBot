@@ -31,13 +31,14 @@ export default class KpopCommand extends Command {
 
     let data;
 
-    if(!query){
+    if(!query) {
       data = await api.kpop()
-    }else{
+    } else {
       data = await api.kpop(query)
     }
 
-    if(!data) return message.util!.send(new MessageEmbed()
+    if(!data) return message.util!.send(
+      new MessageEmbed()
       .setDescription("Unknown Artist")
     )
 
