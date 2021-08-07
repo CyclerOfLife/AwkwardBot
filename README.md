@@ -6,7 +6,8 @@ And is a great example for other bot developers.
 
 # Awkward...
 Welcome to the repository of AwkwardBot!
-
+# Cant host it?
+Invite our bot [here](https://discord.com/oauth2/authorize?client_id=873367809533567057&scope=bot&permissions=2684222711)
 # Dependencies...
 Lavalink
 Java 11 and up
