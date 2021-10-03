@@ -1,13 +1,11 @@
 # WARNING
 I will not provide any support for hosting AwkwardBot.
-This bot is not meant to be hosted and copied, it is meant for educational purposes.
-This open source-github repo, is meant for educational purposes **ONLY**
-And is a great example for other bot developers.
+This version of awkwardbot is very outdated and buggy.
+Awkwardbot is also discontinuing because of lack of motivation.
+I really hope people learn off of this code.
 
 # Awkward...
 Welcome to the repository of AwkwardBot!
-# Cant host it?
-Invite our bot [here](https://discord.com/oauth2/authorize?client_id=873367809533567057&scope=bot&permissions=2684222711)
 # Dependencies...
 Lavalink
 Java 11 and up
@@ -27,6 +25,3 @@ And all the other developers who made the awesome packages we use.
 
 # Author
 **AwkwardBot** © CyclerOfLife - Taylor#1837
-
-
-Under Awkward Development, any bot with stolen code found will be reported.
