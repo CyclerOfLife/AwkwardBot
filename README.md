@@ -1,27 +1,7 @@
-# WARNING
+# DEPRECATION! WARNING!
 I will not provide any support for hosting AwkwardBot.
-This version of awkwardbot is very outdated and buggy.
-Awkwardbot is also discontinuing because of lack of motivation.
-I really hope people learn off of this code.
+This version of awkwardbot is very outdated, buggy, and un-optimized.
+AWKWARDBOT was a fun project for me to learn more about javascript/typescript.
+Please do not use this as a template for any sort because it is very outdated.
 
-# Awkward...
-Welcome to the repository of AwkwardBot!
-# Dependencies...
-Lavalink
-Java 11 and up
-NodeJS v12+
-
-    npm i -g typescript
-    npm i 
-    tsc
-    node .
- 
-# Credits
-Taylor#1837 - Bot developer - Bot Owner
-Lavalink Creators
-Erela.js - MenuDocs
-Discord.js
-And all the other developers who made the awesome packages we use.
-
-# Author
-**AwkwardBot** © CyclerOfLife - Taylor#1837
+Goodluck to all of you.
